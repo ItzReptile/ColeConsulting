@@ -1,5 +1,3 @@
-
-
 export default function Home() {
   return (
     <div className="flex flex-col h-screen">
@@ -22,7 +20,9 @@ export default function Home() {
             <figure className="max-w-xs my-2">
               <img src="./Logo.png" className="w-full" alt="Logo" />
             </figure>
-            <h1 className="text-white text-xl font-medium min-[410px]:text-3xl">Cole Consulting</h1>
+            <h1 className="text-white text-xl font-medium min-[410px]:text-3xl">
+              Cole Consulting
+            </h1>
             <p className="text-white">Let's Begin Our Journey.</p>
             <div className="flex space-x-4">
               <button
@@ -43,10 +43,13 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="  shadow p-2 text-center dark:bg-gray-800">
+      <footer className=" bg-gray-800 shadow p-2 text-cente">
         <span className="text-sm text-gray-500 dark:text-gray-400">
           1300 Eureka St, Lansing, MI 48912
-          <span className="text-white"> <a href="mailto:coleconsulting@coleconsulting.io">Email Us!</a> </span>
+          <span className="text-white">
+            {" "}
+            <a href="mailto:coleconsulting@coleconsulting.io">Email Us!</a>{" "}
+          </span>
         </span>
       </footer>
     </div>
