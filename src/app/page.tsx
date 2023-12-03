@@ -43,7 +43,7 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className=" bg-gray-800 shadow p-2 text-cente">
+      <footer className=" bg-gray-800 shadow p-2 text-center">
         <span className="text-sm text-gray-500 dark:text-gray-400">
           1300 Eureka St, Lansing, MI 48912
           <span className="text-white">
