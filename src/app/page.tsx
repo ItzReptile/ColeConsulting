@@ -19,13 +19,13 @@ export default function Home() {
             <div className="flex space-x-4">
               <button
                 type="button"
-                className="bg-[#757d85] text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                className="bg-[#757d85]  sm:px-5 sm:py-2.5 text-white font-medium rounded-lg text-sm px-3 py-1.5 text-center mr-2 mb-2"
               >
                 About
               </button>
               <button
                 type="button"
-                className="bg-[#757d85] text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                className="bg-[#757d85]  sm:px-5 sm:py-2.5 text-white font-medium rounded-lg text-sm px-3 py-1.5 text-center mr-2 mb-2"
               >
                 Contact
               </button>
